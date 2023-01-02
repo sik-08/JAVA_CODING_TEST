@@ -22,5 +22,6 @@ public class Test1 {
 
         System.out.println("sum: " + sum);
         System.out.println("avg: " + avg);
+        System.out.println("Hello");
     }
 }
