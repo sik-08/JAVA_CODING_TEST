@@ -1,0 +1,4 @@
+hello
+my name is sik
+bye
+see you tomorrow
