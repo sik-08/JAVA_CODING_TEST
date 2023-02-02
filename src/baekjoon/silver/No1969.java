@@ -36,19 +36,19 @@ public class No1969 {
                 }
             }
 
-            max = T;
-            result[i] = 'T';
-            if(A >= max) {
-                max = A;
-                result[i] = 'A';
+            max = A;
+            result[i] = 'A';
+            if(C > max) {
+                max = C;
+                result[i] = 'C';
             }
-            if(G >= max) {
+            if(G > max) {
                 max = G;
                 result[i] = 'G';
             }
-            if(C >= max) {
-                max = C;
-                result[i] = 'C';
+            if(T > max) {
+                max = T;
+                result[i] = 'T';
             }
             System.out.print(result[i]);
         }
